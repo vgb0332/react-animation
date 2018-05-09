@@ -18,11 +18,12 @@ class CustomComponent4 extends Component {
   render() {
     const marginLeft = this.animatedValue.interpolate({
       inputRange: [0, 1],
-      outputRange: [-120, 0],
-    })
+      outputRange: [-60, 0],
+    });
+    console.log(marginLeft);
     return (
       <div className="App">
-          <div style={styles.button} onClick={this.animate}>Animate</div>
+          <div style={styles.button} onClick={this.animate}>Submit</div>
           <Animated.div
             style={
               Object.assign(
