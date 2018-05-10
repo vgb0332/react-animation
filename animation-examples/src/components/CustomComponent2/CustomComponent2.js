@@ -24,6 +24,7 @@ class CustomComponent2 extends Component {
         <input
           style={styles.input}
           onChange={this.onChange}
+          placeholder="4글자를 넘기면....?"
         />
       </div>
     );

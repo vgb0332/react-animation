@@ -1,0 +1,12 @@
+.Example-wrapper {
+  padding: 0 30px;
+}
+
+.Example-header {
+  font-weight: bold;
+  text-align: left;
+}
+
+.Example-text {
+  line-height: 40px;
+}
